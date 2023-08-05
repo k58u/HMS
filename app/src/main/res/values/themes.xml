@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.HMS" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <item name="colorPrimary">@android:color/holo_purple</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+        <item name="colorOnPrimary">@color/material_dynamic_primary10</item>
+
+        <item name="colorSecondary">@color/cardview_shadow_end_color</item>
+    </style>
+
+    <style name="Theme.HMS" parent="Base.Theme.HMS" />
+</resources>
